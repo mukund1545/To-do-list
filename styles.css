@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .todolist {
+    border-collapse: collapse;
+    width: 200px;
+    border: 1px solid #ccc;
+  }
+  
+  .todolist th, .todolist td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .add-task, .add-list {
+    cursor: pointer;
+  }
+  
